@@ -1,13 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 nav .container a.navbar-brand {
   font-size: 40px;
-  -webkit-transition: all .5s ease;
   transition: all .5s ease;
   position: relative;
   bottom: 10px;
@@ -18,7 +16,6 @@ nav .container a.navbar-brand:hover {
 }
 
 nav .container .collapse ul.navbar-nav li.nav-item {
-  -webkit-transition: all .5s ease;
   transition: all .5s ease;
   margin-right: 15px;
 }
@@ -89,9 +86,7 @@ nav .container .collapse ul.navbar-nav li.nav-item a.active {
 
 #proverb .container .row {
   padding-top: 40px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 #proverb .container .row .col-md-6 {
@@ -115,53 +110,53 @@ nav .container .collapse ul.navbar-nav li.nav-item a.active {
   margin-right: 160px;
 }
 
-#who {
+#about {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-#who .container .row .col-md-12 h1 {
+#about .container .row .col-md-12 h1 {
   font-size: 44px;
   font-weight: 700;
   padding-bottom: 20px;
 }
 
-#who .container .row .col-md-4 {
+#about .container .row .col-md-4 {
   margin-left: 30px;
 }
 
-#who .container .row .col-md-4 p.need-p1 {
+#about .container .row .col-md-4 p.need-p1 {
   font-size: 32px;
 }
 
-#who .container .row .col-md-4 p.need-p1 span {
+#about .container .row .col-md-4 p.need-p1 span {
   font-weight: 700;
 }
 
-#who .container .row .col-md-4 p.need-p2 {
+#about .container .row .col-md-4 p.need-p2 {
   font-size: 20px;
 }
 
-#who .container .row .col-md-6 img {
+#about .container .row .col-md-6 img {
   margin-left: 80px;
 }
 
-#who .container .row .col-md-2 {
+#about .container .row .col-md-2 {
   margin-right: 25px;
 }
 
-#who .container .row .col-md-2 .profile-item img {
+#about .container .row .col-md-2 .profile-item img {
   border-radius: 50%;
   margin-bottom: 10px;
 }
 
-#who .container .row .col-md-2 .profile-item h1 {
+#about .container .row .col-md-2 .profile-item h1 {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-#who .container .row .col-md-2 .profile-item p {
+#about .container .row .col-md-2 .profile-item p {
   opacity: .7;
 }
 
@@ -189,13 +184,11 @@ nav .container .collapse ul.navbar-nav li.nav-item a.active {
 #services .container .row .col-md-3 .service-item:hover {
   border: red solid 1px;
   background-color: red;
-  -webkit-animation: changecolor 2s;
-          animation: changecolor 2s;
+  animation: changecolor 2s;
 }
 
 #services .container .row .col-md-3 .service-item:hover img {
-  -webkit-animation: zoomicon 1s;
-          animation: zoomicon 1s;
+  animation: zoomicon 1s;
 }
 
 #services .container .row .col-md-3 .service-item img {
@@ -209,35 +202,35 @@ nav .container .collapse ul.navbar-nav li.nav-item a.active {
   font-weight: 700;
 }
 
-#get-in-touch {
+#contact {
   background-color: #1e7e1e;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-#get-in-touch .container .row .col-md-12 h1 {
+#contact .container .row .col-md-12 h1 {
   text-align: center;
   color: white;
   font-size: 48px;
   margin-bottom: 50px;
 }
 
-#get-in-touch .container .row .col-md-12 p {
+#contact .container .row .col-md-12 p {
   color: white;
   margin-bottom: 35px;
 }
 
-#get-in-touch .container .row .col-md-6 form .form-group input {
+#contact .container .row .col-md-6 form .form-group input {
   margin-bottom: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-#get-in-touch .container .row .col-md-6 input {
+#contact .container .row .col-md-6 input {
   padding-top: 124px;
 }
 
-#get-in-touch .container .row .col-md-6 button {
+#contact .container .row .col-md-6 button {
   padding: 15px 40px;
   margin-top: 34px;
   font-size: 20px;
@@ -289,15 +282,6 @@ footer .container .row .col-md-12 p {
   opacity: .5;
 }
 
-@-webkit-keyframes changecolor {
-  0% {
-    background-color: white;
-  }
-  100% {
-    background-color: red;
-  }
-}
-
 @keyframes changecolor {
   0% {
     background-color: white;
@@ -307,33 +291,15 @@ footer .container .row .col-md-12 p {
   }
 }
 
-@-webkit-keyframes zoomicon {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
 @keyframes zoomicon {
   0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    transform: scale(1.2);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 /*# sourceMappingURL=style.css.map */
